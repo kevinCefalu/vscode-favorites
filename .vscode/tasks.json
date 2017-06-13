@@ -1,0 +1,18 @@
+// Available variables which can be used inside of strings.
+// ${workspaceRoot}: the root folder of the team
+// ${file}: the current opened file
+// ${fileBasename}: the current opened file's basename
+// ${fileDirname}: the current opened file's dirname
+// ${fileExtname}: the current opened file's extension
+// ${cwd}: the current working directory of the spawned process
+
+// A task runner that calls a custom npm script that compiles the extension.
+{
+    "version": "0.1.0",
+    "command": "npm", // we want to run npm
+    "isShellCommand": true, // the command is a shell script
+    "showOutput": "silent", // show the output window only if unrecognized errors occur.
+    "args": [ "run", "compile", "--loglevel", "silent" ], // we run the custom script "compile" as defined in package.json
+    "isBackground": true, // The tsc compiler is started in watching mode
+    "problemMatcher": "$tsc-watch"// use the standard tsc in watch mode problem matcher to find compile problems in the output.
+}
