@@ -1,5 +1,5 @@
 {
-    "name": "psibitdev-favorites",
+    "name": "psibit-vscode-favorites",
     "displayName": "Favorites Manager",
     "description": "Use this extension to manage a list of favorite folders and documents",
     "version": "0.0.1",
@@ -17,7 +17,7 @@
     "contributes": {
         "commands": [
             {
-                "command": "psibit-favorites.openFavorite",
+                "command": "psibit-vscode-favorites.openFavorite",
                 "title": "Open Favorite Collection"
             }
         ],
@@ -25,7 +25,7 @@
             "type": "object",
             "title": "Favorites Collection",
             "properties": {
-                "psibitdev-favorites.FavoritesList": {
+                "psibit-vscode-favorites.FavoritesList": {
                     "type": "array",
                     "items": {
                         "type": "object",

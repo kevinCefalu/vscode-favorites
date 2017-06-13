@@ -11,8 +11,7 @@ export class FileSystemController
 				if (doc !== undefined)
 				{
 					window
-						.showTextDocument(doc)
-						.then((iEditor) => { });
+						.showTextDocument(doc);
 				}
 			});
 	}

@@ -5,7 +5,7 @@ VSCode Extension to manage collections of favorite documents, projects, or both,
 Include new section in your usersettings using the following templates:
 
 ```javascript
-"psibitdev-favorites.FavoritesList": [
+"psibit-vscode-favorites.FavoritesList": [
         { // Single File Favorite
             "Name": "HOSTS File",
             "Type": "File",
