@@ -10,9 +10,21 @@
     "categories": [
         "Other"
     ],
+    "icon": "images/psi.png",
     "activationEvents": [
         "*"
     ],
+    "homepage": "https://github.com/kevinCefalu/vscode-favorites",
+    "readme": "https://github.com/kevinCefalu/vscode-favorites/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kevinCefalu/vscode-favorites.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kevinCefalu/vscode-favorites/issues",
+        "email": "psibit@psibitdev.com"
+    },
+    "license": "MIT",
     "main": "./out/src/extension",
     "contributes": {
         "commands": [
