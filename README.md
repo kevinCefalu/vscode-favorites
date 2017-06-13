@@ -28,7 +28,5 @@ Include new section in your usersettings using the following templates:
 ## Requirements
  - Include collection settings in your user settings file
 
-[//]: <> ## Known Issues
-
 ### 1.0.0
  - Initial Release
