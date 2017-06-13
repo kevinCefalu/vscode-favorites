@@ -4,6 +4,7 @@ VSCode Extension to manage collections of favorite documents, projects, or both,
 ## Getting Started
 Include new section in your usersettings using the following templates:
 
+```javascript
 "psibitdev-favorites.FavoritesList": [
         { // Single File Favorite
             "Name": "HOSTS File",
@@ -24,6 +25,7 @@ Include new section in your usersettings using the following templates:
             "Paths": "D:\\Documents\\Personal\\GIT"
         }
     ],
+```
 
 ## Requirements
  - Include collection settings in your user settings file
